@@ -12,8 +12,8 @@ Photo
 - user_id -> UUID / INT
 - s3_url -> TEXT
 - status -> ENUM<UNDER_REVIEW | APPROVED | REJECTED>
-submitted_at -> TIMESTAMP
-reviewed_at -> TIMESTAMP
+- submitted_at -> TIMESTAMP
+- reviewed_at -> TIMESTAMP
 
 ### Workflow and System Design
 1. Photo Upload (User)
